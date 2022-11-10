@@ -9,9 +9,10 @@ function Button({ label, disabled }) {
   }
 
   return (
-  <Container disabled={disabled} onClick={login}>
-    {label}
-  </Container>)
+    <Container disabled={disabled} onClick={login}>
+      {label}
+    </Container>
+  )
 }
 
 export default Button;
